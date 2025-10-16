@@ -12,11 +12,7 @@ This repository contains my professional CV/resume, highlighting experience in:
 - Additive manufacturing and sensor fusion
 - Open-source projects (ezmsg, DC Mini)
 
-**Current PDF**: [`main.pdf`](./main.pdf)
-
 ## Prerequisites
-
-### Option 1: Nix (Recommended)
 
 With Nix installed and flakes enabled, you get:
 
@@ -31,21 +27,6 @@ Enable flakes (if not already enabled):
 ```bash
 mkdir -p ~/.config/nix
 echo "experimental-features = nix-command flakes" >> ~/.config/nix/nix.conf
-```
-
-### Option 2: Native Typst
-
-Install Typst directly:
-
-```bash
-# macOS
-brew install typst
-
-# Linux
-# See https://github.com/typst/typst#installation
-
-# Windows
-# Download from https://github.com/typst/typst/releases
 ```
 
 ## Building the CV
@@ -162,6 +143,6 @@ jobs:
 
 This CV content is personal and proprietary. The build system configuration (flake.nix) may be reused under MIT license.
 
-______________________________________________________________________
+---
 
 **Generated with [Typst](https://typst.app/) • Built with [Nix](https://nixos.org/)**
